@@ -15,5 +15,10 @@ document.getElementById("authForm").addEventListener("submit", function(e) {
     return;
   }
 
-  alert("Login successful (Test Only)");
+  if (password.length < 4) {
+    alert("Password must be at least 4 characters.");
+    return;
+  }
+
+  alert("Login successful");
 });

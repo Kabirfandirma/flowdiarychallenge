@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  font-family: 'Glicker', Tahoma, Geneva, Verdana, sans-serif;
+  background: #f0f2f5;
+}
+
+header {
+  background: linear-gradient(to right, #0001b1, #f97606);
+  padding: 40px 0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+form {
+  display: inline-block;
+  background: white;
+  padding: 30px 40px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+form h2 {
+  margin-bottom: 20px;
+  color: #0001b1;
+}
+
+input {
+  padding: 10px;
+  width: 250px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+button {
+  padding: 12px 24px;
+  background-color: #f97606;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+button:hover {
+  background-color: #1e63d7;
+}
+footer {
+    background: linear-gradient(to right, #f97606, #f97606);
+  padding: 10px 0;
+  color: white;
+  text-align: center;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);}
+  #topHeader {
+  background: linear-gradient(to right, #0001b1, #0001b1); 
+  padding: 20px;
+  text-align: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+  border-bottom: 4px solid #fff;
+}
+#topHeader img.profile-pic {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 20%;
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+  margin-bottom: 0px;
+  border: 3px solid white;
+}
